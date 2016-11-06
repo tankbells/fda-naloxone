@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_visibility_black.png",
+        "source": "/Users/tankbell/AndroidStudioProjects/fda/app/src/main/res/mipmap-hdpi/ic_visibility_black.png"
+    },
+    {
+        "merged": "/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/tankbell/AndroidStudioProjects/fda/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_visibility_off_black.png",
+        "source": "/Users/tankbell/AndroidStudioProjects/fda/app/src/main/res/mipmap-hdpi/ic_visibility_off_black.png"
+    },
+    {
+        "merged": "/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/res/merged/debug/mipmap-hdpi/tankbell.png",
+        "source": "/Users/tankbell/AndroidStudioProjects/fda/app/src/main/res/mipmap-hdpi/tankbell.png"
+    },
+    {
+        "merged": "/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/res/merged/debug/mipmap-hdpi/cognito.png",
+        "source": "/Users/tankbell/AndroidStudioProjects/fda/app/src/main/res/mipmap-hdpi/cognito.png"
+    }
+]

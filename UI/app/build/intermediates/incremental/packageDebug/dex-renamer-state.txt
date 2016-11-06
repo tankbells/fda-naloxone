@@ -1,0 +1,4 @@
+#Tue Oct 25 18:35:04 PDT 2016
+base.0=/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/tankbell/AndroidStudioProjects/fda/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

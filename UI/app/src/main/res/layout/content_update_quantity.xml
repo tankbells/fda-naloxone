@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ ~ Copyright 2016. Tankbell Technologies.
+ ~ All rights reserved
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context="com.tankbell.naloxone.UpdateQuantity"
+    tools:showIn="@layout/activity_update_quantity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Update Quantity and Age"
+        android:id="@+id/textViewUpdateQtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewUpdateQtTitle"
+        android:id="@+id/space_ChangePass_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/activity_text_size_small"
+        android:text="Enter the quantity you possess and your age below."
+        android:id="@+id/textViewUpdateQtMessage"
+        android:layout_below="@id/space_ChangePass_1"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewUpdateQtMessage"
+        android:id="@+id/space_ChangePass_1A" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/activity_text_size_small"
+        android:text=" "
+        android:id="@+id/textViewAgeLabel"
+        android:layout_below="@id/space_ChangePass_1A"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_height"
+        android:paddingLeft="@dimen/activity_text_padding"
+        android:paddingRight="@dimen/activity_text_padding"
+        android:id="@+id/editTextAge"
+        android:layout_below="@id/textViewAgeLabel"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/text_border_selector"
+        android:hint="Age"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/activity_text_padding"
+        android:text=" "
+        android:textColor="@color/alert"
+        android:id="@+id/textViewAgeMessage"
+        android:layout_below="@id/editTextAge"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/activity_text_size_small"
+        android:text=" "
+        android:id="@+id/textViewQtLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewAgeMessage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_text_height"
+        android:paddingLeft="@dimen/activity_text_padding"
+        android:paddingRight="@dimen/activity_text_padding"
+        android:id="@+id/editTextQt"
+        android:layout_below="@id/textViewQtLabel"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/text_border_selector"
+        android:hint="Quantity"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/activity_text_padding"
+        android:text=" "
+        android:textColor="@color/alert"
+        android:id="@+id/textViewQtMessage"
+        android:layout_below="@id/editTextQt"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_intra_group_separation"
+        android:layout_below="@id/textViewQtMessage"
+        android:id="@+id/space_ChangePass_2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_button_height"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_button_text_size"
+        android:id="@+id/update_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space_ChangePass_2"
+        android:background="@drawable/button_selector" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_intra_group_separation"
+        android:layout_below="@id/change_pass_button"
+        android:id="@+id/space_ChangePass_3" />
+
+</RelativeLayout>
